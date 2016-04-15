@@ -59,12 +59,12 @@ Chris Paciorek, Department of Statistics, UC Berkeley
 <h1>Getting the workshop materials</h1>
 <p>To download the files, you can do the following.</p>
 <h2 id="from-a-browser">From a browser</h2>
-<p>You can simply download a zip file with all the material to your hard drive from <a href="https://github.com/paciorek/nimble-dlab-2016">our Github repository</a>. Look for the <code>Download ZIP</code> button in the lower right.</p>
+<p>Simply go to <a href="https://github.com/paciorek/nimble-dlab-2016">https://github.com/paciorek/nimble-dlab-2016</a> and click on the 'Download ZIP' button in the right side of the window or simply click <a href="https://github.com/paciorek/nimble-dlab-2016/archive/master.zip">here</a>.</p>
 <h2 id="within-rstudio">Within RStudio</h2>
 <p>Within RStudio go to File-&gt;New Project-&gt;Version Control-&gt;Git and enter:</p>
 <ul>
 <li>&quot;Repository URL&quot;: https://github.com/paciorek/nimble-dlab-2016</li>
-<li>&quot;Project Directory Name&quot;: nimble-outreach (or something else of your choosing)</li>
+<li>&quot;Project Directory Name&quot;: nimble-dlab-2016 (or something else of your choosing)</li>
 <li>&quot;Directory&quot;: ~/Desktop (or somewhere of your choosing)</li>
 </ul>
 <p>Then to update from the repository to get any changes we've made, you can select (from within RStudio): Tools-&gt;Version Control-&gt;Pull Branches</p>
@@ -78,7 +78,7 @@ Chris Paciorek, Department of Statistics, UC Berkeley
 </ul>
 <p>Then to update from the repository to get any changes we've made:</p>
 <ul>
-<li><code>cd /directory/where/you/put/the/repository/nimble-outreach</code></li>
+<li><code>cd /directory/where/you/put/the/repository/nimble-dlab-2016</code></li>
 <li><code>git pull</code></li>
 </ul>
 </div>
@@ -88,7 +88,7 @@ Chris Paciorek, Department of Statistics, UC Berkeley
 <p>In summary, here are the steps.</p>
 <ol style="list-style-type: decimal">
 <li>Install compiler tools on your system. Section 4.3 of the manual describes how to install <em>Rtools</em> on Windows and how to install the command line tools of <em>Xcode</em> on a Mac.</li>
-<li>install the <em>igraph</em> package (this is available on CRAN so you can install in the usual way)</li>
+<li>install the <em>igraph</em> and <em>coda</em> packages (these are available on CRAN so you can install in the usual way)</li>
 <li>install the <em>nimble</em> package as follows (the note in the manual about it being on CRAN is <em>not</em> correct) after starting R: <code>install.packages(&quot;nimble&quot;, repos = &quot;http://r-nimble.org&quot;, type = &quot;source&quot;)</code></li>
 </ol>
 </div>
@@ -176,7 +176,7 @@ Chris Paciorek, Department of Statistics, UC Berkeley
 <ol style="list-style-type: decimal">
 <li><a href="bugs_language_slides.html">The BUGS language</a></li>
 <li><a href="build_model_slides.html">Building a model in NIMBLE</a></li>
-<li><a href="run_mcmc.html">Running an MCMC</a></li>
+<li><a href="run_mcmc_slides.html">Running an MCMC</a></li>
 <li><a href="data_nodes_slides.html">Specifying data</a></li>
 </ol></li>
 <li>Advanced MCMC
@@ -187,7 +187,7 @@ Chris Paciorek, Department of Statistics, UC Berkeley
 <li>More on specifying BUGS models
 <ol start="2" style="list-style-type: decimal">
 <li><a href="alt_param_slides.html">Alternative parameterizations</a></li>
-<li><a href="indexing.html">Indexing</a></li>
+<li><a href="indexing_slides.html">Indexing</a></li>
 <li><a href="user_dist_slides.html">User-defined distributions</a></li>
 </ol></li>
 <li>Programming in NIMBLE

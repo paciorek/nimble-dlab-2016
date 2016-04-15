@@ -57,14 +57,14 @@ To download the files, you can do the following.
 
 ## From a browser
 
-You can simply download a zip file with all the material to your hard drive from [our Github repository](https://github.com/paciorek/nimble-dlab-2016). Look for the ```Download ZIP``` button in the lower right.
+Simply go to [https://github.com/paciorek/nimble-dlab-2016](https://github.com/paciorek/nimble-dlab-2016) and click on the 'Download ZIP' button in the right side of the window or simply click [here](https://github.com/paciorek/nimble-dlab-2016/archive/master.zip).
 
 ## Within RStudio
 
 Within RStudio go to File->New Project->Version Control->Git and enter:
 
 - "Repository URL": https://github.com/paciorek/nimble-dlab-2016
-- "Project Directory Name": nimble-outreach (or something else of your choosing)
+- "Project Directory Name": nimble-dlab-2016 (or something else of your choosing)
 - "Directory": ~/Desktop (or somewhere of your choosing)
 
 Then to update from the repository to get any changes we've made, you can select (from within RStudio):
@@ -83,7 +83,7 @@ Run the following commands:
 
 Then to update from the repository to get any changes we've made:
 
-- `cd /directory/where/you/put/the/repository/nimble-outreach`
+- `cd /directory/where/you/put/the/repository/nimble-dlab-2016`
 - `git pull`
 
 # Installing NIMBLE
@@ -95,7 +95,7 @@ In summary, here are the steps.
 1. Install compiler tools on your system. Section 4.3 of the manual
 describes how to install *Rtools* on Windows and how to install the
 command line tools of *Xcode* on a Mac.
-2. install the *igraph* package (this is available on CRAN so you can
+2. install the *igraph* and *coda* packages (these are available on CRAN so you can
 install in the usual way)
 3. install the *nimble* package as follows (the note in the manual about
 it being on CRAN is _not_ correct) after starting R:
@@ -166,14 +166,14 @@ Here are the modules we'll work through for this workshop, though we probably wo
  - Introduction to NIMBLE
     1. [The BUGS language](bugs_language_slides.html)
     2. [Building a model in NIMBLE](build_model_slides.html)
-    3. [Running an MCMC](run_mcmc.html)
+    3. [Running an MCMC](run_mcmc_slides.html)
     4. [Specifying data](data_nodes_slides.html)
  - Advanced MCMC
     1. [Customizing an MCMC](customizing_mcmc_slides.html)
     2. [An extended example](litters_exapmle_slides.html)
  - More on specifying BUGS models
     2. [Alternative parameterizations](alt_param_slides.html)
-    3. [Indexing](indexing.html)
+    3. [Indexing](indexing_slides.html)
     4. [User-defined distributions](user_dist_slides.html)
  - Programming in NIMBLE
     1. [Operating a NIMBLE model](operating_model_slides.html)
