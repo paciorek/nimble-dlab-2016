@@ -12,7 +12,7 @@ output:
 # e.g. package and dataset loading
 library(methods)  # otherwise new() not being found - weird
 library(nimble)
-read_chunk('chunks.R')
+read_chunk('chunks_pump.R')
 ```
 
 

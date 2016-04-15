@@ -14,7 +14,7 @@ output:
 
 library(methods)  # otherwise new() not being found - weird
 library(nimble)
-read_chunk("chunks.R")
+read_chunk("chunks_pump.R")
 ```
 
 # Running example: the pump model
