@@ -2,9 +2,9 @@
 
 1) Practice with BUGS code. Do one of the following:
 
-  - Write BUGS code for a normal random effects model with 6 groups and 10 observations in each group. You'll need multiple variance components. 
-  - Write the code for another model of your choice. 
-  - Examine the BUGS code for one of the BUGS examples; see ```system.file('classic-bugs', package = "nimble")``` for the location of the examples on your machine, or look in [https://github.com/nimble-dev/nimble/tree/devel/packages/nimble/inst/classic-bugs/vol1](https://github.com/nimble-dev/nimble/tree/devel/packages/nimble/inst/classic-bugs/vol1).
+   - Write BUGS code for a normal random effects model with 6 groups and 10 observations in each group. 
+   - Write the code for another model of your choice. 
+   - Examine the BUGS code for one of the BUGS examples; see ```system.file('classic-bugs', package = "nimble")``` for the location of the examples on your machine, or look in [https://github.com/nimble-dev/nimble/tree/devel/packages/nimble/inst/classic-bugs/vol1](https://github.com/nimble-dev/nimble/tree/devel/packages/nimble/inst/classic-bugs/vol1).
 
 2) Take your model from above, or the code from one of the BUGS examples and fit a basic MCMC.
 
