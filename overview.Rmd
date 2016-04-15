@@ -180,7 +180,7 @@ Here are the modules we'll work through for this workshop, though we probably wo
     2. [Inspecting model structure](model_structure_slides.html)
     3. [Writing an algorithm using nimbleFunctions](nimbleFunctions_slides.html)
 
-Exercises can be found [here](exercises_dlab_2016.html).
+Exercises can be found [here](exercises_slides.html).
     
 Other topics
 
